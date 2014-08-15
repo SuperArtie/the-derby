@@ -1,10 +1,10 @@
-## name of project
+## The Derby
 ### Code Badges
-build status icon
-coverage status icon
+[![Build Status](https://travis-ci.org/SuperArtie/the-derby.svg?branch=master)](https://travis-ci.org/SuperArtie/the-derby)
+[![Coverage Status](https://coveralls.io/repos/SuperArtie/the-derby/badge.png)](https://coveralls.io/r/SuperArtie/the-derby)
 
 ### About
-write a description about your project
+♫ Cuz baby I'm rambler... ♫ I'm a gambler... ♫ and I'll hold on to you the whole night through ♫ Unless of course I have zero assets and you dump my ass ♫
 
 ### Models
 ```
@@ -35,7 +35,7 @@ $ npm test
 ```
 
 ### Contributors
-- [Chyld Medford](https://github.com/chyld)
+- [Natha Vasquez](https://github.com/superartie)
 
 ### License
 [MIT](LICENSE)

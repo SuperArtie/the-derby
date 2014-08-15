@@ -1,0 +1,25 @@
+extends ../shared/template
+block content
+  h2 The Gamblers
+  #gamblers
+    each gambler in gamblers
+      .gambler(data-gambler-id=gambler._id.toString())
+        .photo: img(src='#{gambler.photo}')
+        .name: a(href='/gamblers/#{gambler._id}')= gambler.name
+        .cash Cash: $#{gambler.cash.toFixed(2)}
+        if gambler.assets.length
+          .spousePhoto: img(src='#{gambler.spouse.photo}')
+          .spouse Spouse: #{gambler.spouse.name}
+        #assets Assets:
+          each asset in gambler.assets
+            .asset
+              .assetPhoto(style='background-image:url("#{asset.photo}");')
+                .assetInfo
+                  .assetName: a(href='#')= asset.name
+                  .assetValue $#{asset.value.toFixed(2)}
+        .resultsWins Wins: #{gambler.results.wins}
+        .resultsLosses Losses: #{gambler.results.losses}
+
+block scripts
+  script(src='/js/user/gambler.js')
+

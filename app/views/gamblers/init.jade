@@ -1,0 +1,9 @@
+extends ../shared/template
+block content
+  form(method='post' action='/')
+    input(name='name' type='text' placeholder='name' autfocus=true)
+    input(name='photo' type='text' placeholder='photo url')
+    input(name='spouseName' type='text' placeholder='spouse name')
+    input(name='spousePhoto' type='text' placeholder='spouse photo')
+    input(name='cash' type='text' placeholder='cash amount')
+    button Add Gambler

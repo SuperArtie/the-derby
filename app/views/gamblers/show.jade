@@ -1,0 +1,18 @@
+extends ../shared/template
+block content
+  a(href='/gamblers/#{gambler._id}/assets/new') New Asset
+  .gambler(data-gambler-id=gambler._id.toString())
+    .photo: img(src='#{gambler.photo}')
+    .name= gambler.name
+    .cash Cash: $#{gambler.cash.toFixed(2)}
+    .spousePhoto: img(src='#{gambler.spouse.photo}')
+    .spouse Spouse: #{gambler.spouse.name}
+    #assets Assets:
+      each asset in gambler.assets
+        .asset
+          .assetPhoto(style='background-image:url("#{asset.photo}");')
+            .assetInfo
+              .assetName: a(href='#')= asset.name
+              .assetValue $#{asset.value.toFixed(2)}
+    .resultsWins Wins: #{gambler.results.wins}
+    .resultsLosses Losses: #{gambler.results.losses}

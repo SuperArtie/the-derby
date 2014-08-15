@@ -1,0 +1,51 @@
+{
+  "_id":{"$oid":"000000000000000000000001"},
+  "name":"Gary O'McGillicudy",
+  "spouse":{"name":"Brigid", "photo":"http://media.her.ie/wp-content/uploads/2013/01/9b498b61ad02c18ac0fa60ab7d6b3d26f2cd43b6-634x402.jpeg"},
+  "photo":"http://www.gbcol.edu/images/directory/Pat_McGillicuddy.jpg",
+  "cash":1000.00,
+  "assets":[{"name":"10K White Gold Wedding Ring",
+             "photo":"http://www.kay.com/images/products/0235/023528007_MV_TB.jpg",
+             "value":699.00},
+            {"name":"2010 Toyota Prius", 
+             "photo":"http://media.ed.edmunds-media.com/toyota/prius/2010/ei/2010_toyota_prius_4dr-hatchback_iv_tds_ei_2_300.jpg",
+             "value":15000},
+            {"name":"Little Barney's Trust Fund",
+             "photo":"http://www.gerardwobrien.com/images/family-trust-fund-baby.jpg",
+             "value":10000}],
+  "results":{"wins":2, "losses":13}
+}
+{
+  "_id":{"$oid":"000000000000000000000002"},
+  "name":"Patches O'Houlihan",
+  "spouse":{"name":"Mrs. O'Houlihan (deceased)", "photo":"http://www.fritziinc.com/tree/images/503700.jpg"},
+  "photo":"http://www.raisingarrows.net/wp-content/uploads/2012/06/Grandpa_Micah2009-753x1024.jpg",
+  "cash":800.50,
+  "assets":[{"name":"Sterling Silver Ring",
+             "photo":"http://www.kay.com/images/products/0235/023525607_MV_TB.jpg",
+             "value":80.00},
+            {"name":"1992 Geo Metro",
+             "photo":"http://media.ed.edmunds-media.com/geo/metro/1992/oem/1992_geo_metro_2dr-hatchback_lsi_fq_oem_1_500.jpg",
+             "value":1000},
+            {"name":"Jaime's piggy bank on his beat up drawer in his bedroom",
+             "photo":"http://1.bp.blogspot.com/_qLAIskTQXUc/TQjfQGG3o4I/AAAAAAAAFLE/grTljIlCUGA/s1600/Recession-Piggy-Bank.jpga",
+             "value":0.79}],
+  "results":{"wins":5, "losses":1}
+}
+{
+  "_id":{"$oid":"000000000000000000000003"},
+  "name":"Seamus O'Brien",
+  "spouse":{"name":"Genevieve", "photo":"http://clatl.com/imager/genevieve-mcgillicuddy-festivals-director-for-image-film-and-video-center/b/original/1233213/a5a1/poet_celeb-6616.jpeg"},
+  "photo":"http://www.nursingtimes.net/pictures/182xAny/9/8/1/1266981_Seamus_O_Brien.jpg",
+  "cash":1100.75,
+  "assets":[{"name":"Tolkowsky Solitaire Ring 15K Gold",
+             "photo":"http://www.kay.com/images/products/0235/023528007_MV_TB.jpg",
+             "value":25000},
+            {"name":"1969 Ford Mustang",
+             "photo":"http://pictures.topspeed.com/IMG/crop/200704/1969-ford-mustang-boss-42-5_600x0w.jpg",
+             "value":19000},
+            {"name":"Lots and lots of stocks",
+             "photo":"http://www.edisonticker.com/images/tickers/burry/burry-thumb.jpg",
+             "value":200000}],
+  "results":{"wins":3, "losses":33}
+}

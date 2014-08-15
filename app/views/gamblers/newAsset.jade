@@ -1,0 +1,7 @@
+extends ../shared/template
+block content
+  form(method='post' action='/gamblers/#{gambler._id}')
+    input(name='name' type='text' placeholder='asset name' autofocus=true)
+    input(name='photo' type='text' placeholder='asset photo url')
+    input(name='value' type='text' placeholder='monetary value')
+    button Add Asset
